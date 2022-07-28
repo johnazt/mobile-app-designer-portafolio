@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600&display=swap");
+
+:root {
+	--white: #ffffff;
+	--gray: #adadad;
+	--light-gray: #f9f5f2;
+	--orange: #f26440;
+	--green: #286f6c;
+	--pink: #fef2f2;
+}
+
+*,
+::after,
+::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* GENERAL SETTING */
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+img {
+	max-width: 100%;
+	object-fit: cover;
+}
+
+li {
+	list-style-type: none;
+}
+
+.header {
+	min-height: 55vh;
+	background-color: var(--pink);
+	padding: 1.5em;
+	position: relative;
+}
+
+.menu-icon {
+	display: inline-block;
+	position: absolute;
+	right: 2em;
+	cursor: pointer;
+	width: 24px;
+	aspect-ratio: 1.5;
+}
+
+.nav {
+	display: none;
+}
+
+.container-title__h1 {
+	font-size: 50px;
+	font-weight: 600;
+	padding-top: 15%;
+}
+
+.container-title__social {
+	margin-top: 1em;
+}
+
+.social-icon {
+	border: 3px solid var(--white);
+	background-color: var(--orange);
+	color: var(--white);
+	margin-bottom: 1em;
+	padding: 0.7em;
+	border-radius: 50%;
+}
+
+.title__picture {
+	position: absolute;
+	bottom: 0;
+	left: calc(100% - 75%);
+	max-width: 55%;
+	min-width: 50%;
+	max-height: auto;
+}
+
+.green-circle {
+	position: absolute;
+	right: 1em;
+	bottom: 17%;
+	border-radius: 50%;
+	width: 200px;
+	aspect-ratio: 1;
+	background-color: var(--green);
+}
