@@ -40,6 +40,10 @@ li {
 	height: 495px;
 	padding: 1.5em;
 }
+.header-container {
+	max-width: 600px;
+	margin: 0 auto;
+}
 .header__circle {
 	position: absolute;
 	right: 1em;
@@ -95,6 +99,8 @@ li {
 
 /* About me*/
 .c-about {
+	max-width: 700px;
+	margin: auto;
 	padding: 3em 1em;
 }
 .c-about__title {
@@ -111,15 +117,17 @@ li {
 /* My SKills */
 
 .c-skills {
-	max-width: 900px;
+	max-width: 1000px;
 	position: relative;
 	margin: 2em 0 3em 0;
 }
 .c-skills__title {
 	font-size: 32px;
 	color: var(--green);
-	margin-bottom: 1em;
 	padding-left: 0.5em;
+	max-width: 700px;
+	margin: auto;
+	margin-bottom: 1em;
 }
 .c-skills__span {
 	display: inline-block;
@@ -134,14 +142,14 @@ li {
 .c-skills__circle--size-big {
 	top: -2em;
 	left: -4.6em;
-	height: 150px;
 	width: 150px;
+	aspect-ratio: 1;
 	background-color: var(--green);
 	z-index: -33;
 }
 .c-skills__circle--size-small {
-	height: 80px;
 	width: 80px;
+	aspect-ratio: 1;
 	left: 1em;
 	top: 5em;
 	z-index: -32;
@@ -184,6 +192,8 @@ li {
 
 .c-experience {
 	padding: 0 1em 6.5em 1em;
+	max-width: 700px;
+	margin: auto;
 }
 .c-experience__title {
 	font-size: 32px;
@@ -253,6 +263,7 @@ li {
 	margin-bottom: -10em;
 }
 .c-portfolio-img {
+	max-width: 400px;
 	padding: 1em;
 	border-radius: 10px;
 	background-color: var(--white);
@@ -268,6 +279,7 @@ li {
 	padding: 0.5em 0;
 }
 .c-portfolio-text__description {
+	max-width: 700px;
 	line-height: 1.6;
 	font-weight: 300;
 	color: var(--light-gray);
@@ -277,6 +289,8 @@ li {
 .c-contact {
 	position: relative;
 	padding-bottom: 6em;
+	max-width: 700px;
+	margin: auto;
 }
 .c-contact__background {
 	position: absolute;
@@ -318,5 +332,46 @@ li {
 	font-size: 19px;
 	text-align: center;
 	color: var(--orange);
-	padding: 3em 0 ;
+	padding: 3em 0;
+}
+
+/* MEDIA QUERIES */ /* TABLET  */
+/* ====================================== */
+
+@media screen and (min-width: 768px) {
+	.header__circle {
+		width: 280px;
+		bottom: 10%;
+		right: 6em;
+	}
+	.header-container__title {
+		max-width: 400px;
+	}
+	.header-container__photo {
+		max-width: 230px;
+	}
+	.c-skills__circle--size-big {
+		width: 30%;
+		top: -3em;
+		left: -6.8em;
+	}
+	.c-skills__circle--size-small {
+		width: 15%;
+	}
+	.c-experience__container {
+		align-items: center;
+	}
+	.experience-card {
+		gap: 3em;
+	}
+	.c-portfolio {
+		grid-template-columns: 2em 1fr 1fr 2em;
+	}
+	.c-portfolio-img--grid-three {
+		justify-self: flex-end;
+	}
+	.c-contact__background {
+		width: 280px;
+		left: -10em;
+	}
 }
