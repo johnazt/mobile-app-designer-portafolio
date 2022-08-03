@@ -1,8 +1,0 @@
-{
-    "editor.defaultFormatter": "vscode.html-language-features",
-    "prettier.requireConfig": false,
-    "html.format.wrapLineLength": 180,
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    }
-}
