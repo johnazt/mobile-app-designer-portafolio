@@ -5,13 +5,12 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./assets/css/styles.css" />
-		<script src="assets/js/main.js" defer></script>
 		<title>Portafolio | John Asto</title>
+		<script src="./assets/js/main.js" defer></script>
 	</head>
-
 	<body>
 		<!-- HEADER = = = = = = = = = = = = = = = = = = = = = = = =-->
-		<header class="header">
+		<header id="home" class="header">
 			<div class="header__circle"></div>
 			<nav class="nav">
 				<img
@@ -20,23 +19,24 @@
 					alt="icon-menu"
 				/>
 				<ul class="nav-list">
+					<div id="closeIcon" class="close-icon">X</div>
 					<li class="nav-list__item">
-						<a class="nav-list__links" href="#">Home</a>
+						<a class="nav-list__links" href="./index.html">Home</a>
 					</li>
 					<li class="nav-list__item">
-						<a class="nav-list__links" href="#">Acerca de mi</a>
+						<a class="nav-list__links" href="#acercaDemi">Acerca de mi</a>
 					</li>
 					<li class="nav-list__item">
-						<a class="nav-list__links" href="#">Mis habilidades</a>
+						<a class="nav-list__links" href="#skills">Mis habilidades</a>
 					</li>
 					<li class="nav-list__item">
-						<a class="nav-list__links" href="#">Experiencia</a>
+						<a class="nav-list__links" href="#experience">Experiencia</a>
 					</li>
 					<li class="nav-list__item">
-						<a class="nav-list__links" href="#">Portafolio</a>
+						<a class="nav-list__links" href="#portfolio">Portafolio</a>
 					</li>
 					<li class="nav-list__item">
-						<a class="nav-list__links" href="#">Contacto</a>
+						<a class="nav-list__links" href="#contact">Contacto</a>
 					</li>
 				</ul>
 			</nav>
@@ -82,7 +82,7 @@
 		<!-- MAIN === = = = = = = = = = = = = = = = = = = = = = = = = = = =-->
 		<main class="main">
 			<!-- ABOUT ME ==============================================-->
-			<section class="c-about">
+			<section id="acercaDemi" class="c-about">
 				<h2 class="c-about__title">Acerca de mí</h2>
 				<p class="c-about__description">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus,
@@ -93,7 +93,7 @@
 				</p>
 			</section>
 			<!-- My Skills ========================================== -->
-			<section class="c-skills">
+			<section id="skills" class="c-skills">
 				<h2 class="c-skills__title">
 					<span class="c-skills__span">Mis</span> habilidades
 				</h2>
@@ -148,7 +148,7 @@
 				</div>
 			</section>
 			<!-- EXPERIENCE ===================================== -->
-			<section class="c-experience">
+			<section id="experience" class="c-experience">
 				<h2 class="c-experience__title">Experiencia</h2>
 				<div class="c-experience__container">
 					<div class="experience-card">
@@ -196,7 +196,7 @@
 				</div>
 			</section>
 			<!-- PORTAFOLIO =========================================-->
-			<section class="c-portfolio">
+			<section id="portfolio" class="c-portfolio">
 				<div class="c-portfolio-img c-portfolio-img--grid-one">
 					<img src="./assets/imgs/image 11.jpg" alt="img-portfolio" />
 					<h3 class="c-portfolio-img__title">Fitness app</h3>
@@ -216,7 +216,7 @@
 				</div>
 			</section>
 			<!-- CONTACTO =======================================-->
-			<section class="c-contact">
+			<section id="contact" class="c-contact">
 				<div class="c-contact__background"></div>
 				<h2 class="c-contact__title">Contacto</h2>
 				<div class="c-contact__container">
