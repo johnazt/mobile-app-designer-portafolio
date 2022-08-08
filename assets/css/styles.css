@@ -419,7 +419,7 @@ a {
 }
 /* MEDIA QUERIES */ /* DESKTOP  */
 /* ====================================== */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
 	:root {
 		--regular-font: 20px;
 		--subsection-font: 24px;
@@ -433,11 +433,10 @@ a {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		max-width: 1100px;
-		/* margin: 0 auto; */
+		max-width: 1200px;
 	}
 	.header__circle {
-		width: 550px;
+		width: 470px;
 		left: 50%;
 		right: 25%;
 	}
@@ -467,16 +466,19 @@ a {
 	.nav__menu-icon {
 		display: none;
 	}
+	.close-icon {
+		display: none;
+	}
 	.nav-list {
-		position: none;
 		display: flex;
+		position: none;
 		width: 100%;
 		flex-direction: row;
 		justify-content: end;
 		gap: 3em;
 		background-color: transparent;
 		z-index: 1;
-		padding: 1em 3em 0 0;
+		padding: 1em 0 0 0;
 		height: 150px;
 	}
 	.nav-list::after {
@@ -495,7 +497,7 @@ a {
 	.c-skills,
 	.c-experience,
 	.c-contact {
-		max-width: 1000px;
+		max-width: 1024px;
 		padding: 5em 0 5em 0;
 	}
 	.c-skills {
