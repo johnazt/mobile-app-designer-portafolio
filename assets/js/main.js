@@ -3,15 +3,11 @@ const menuIcon = document.querySelector(".nav__menu-icon");
 const closeIcon = document.getElementById("closeIcon");
 
 menuIcon.addEventListener("click", function (e) {
-	menuIcon.style.display = "none";
-	navMenu.style.display = "flex";
+	menuIcon.classList.add("display-none");
+	navMenu.classList.add("display-flex");
 });
 
 closeIcon.addEventListener("click", function (evt) {
-	navMenu.style.display = "none";
-	menuIcon.style.display = "inline-block";
+	navMenu.classList.remove("display-flex");
+	menuIcon.classList.remove("display-none");
 });
-
-// window.onbeforeunload = function () {
-// 	window.scrollTo(0, 0);
-//   }

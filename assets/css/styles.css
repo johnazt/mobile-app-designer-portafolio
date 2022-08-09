@@ -376,7 +376,13 @@ a {
 	color: var(--orange);
 	padding: 3em 0;
 }
-
+/* JS CLASS ADD */
+.display-none {
+	display: none;
+}
+.display-flex {
+	display: flex;
+}
 /* MEDIA QUERIES */ /* TABLET  */
 /* ====================================== */
 
