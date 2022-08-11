@@ -7,7 +7,7 @@ menuIcon.addEventListener("click", function (e) {
 	navMenu.classList.add("display-flex");
 });
 
-closeIcon.addEventListener("click", function (evt) {
+closeIcon.addEventListener("click", function (e) {
 	navMenu.classList.remove("display-flex");
 	menuIcon.classList.remove("display-none");
 });
