@@ -94,12 +94,18 @@ a,
 	flex-direction: column;
 	gap: 1em;
 }
+.header-social__item {
+	display: inline-flex;
+}
 .header-social__icon {
 	display: inline-block;
 	border: 3px solid var(--light-color);
 	background-color: var(--secundary-color);
 	padding: 0.7em;
 	border-radius: 50%;
+}
+.header-social__img {
+	width: 27px;
 }
 /* NAV ===================== */
 .nav__menu-icon {
