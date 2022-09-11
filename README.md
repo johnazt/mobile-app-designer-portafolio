@@ -1,10 +1,8 @@
 # Mobile App Designer Portfolio
 ===========================
 
-✅ Desarrollo de diseño de portafolio web brindado por Academlo.
+✅ Desarrollo de portafolio web brindado en Academlo.
 
-✅ Decidí diseñar este modelo en especial para seguir mejorando en el maquetado de páginas web 
-
-✅  Este portafolio se desarrolló utilizando HTML y CSS
+✅ Este portafolio se desarrolló utilizando solo HTML y CSS
 
 ==================================
